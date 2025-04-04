@@ -235,3 +235,4 @@ C:\Users\rziyani\source\repos\TpDay2Mvc\WebMvcApp\obj\Debug\net9.0\staticwebasse
 C:\Users\rziyani\source\repos\TpDay2Mvc\WebMvcApp\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.WebMvcApp.props
 C:\Users\rziyani\source\repos\TpDay2Mvc\WebMvcApp\obj\Debug\net9.0\staticwebassets.pack.json
 C:\Users\rziyani\source\repos\TpDay2Mvc\WebMvcApp\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\rziyani\source\repos\TpDay2Mvc\WebMvcApp\obj\Debug\net9.0\WebMvcApp.sourcelink.json
