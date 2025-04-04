@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Service.DTO.RestaurantDto>
+@{
+    ViewData["Title"] = "Liste des Restaurants";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Ajouter un Restaurant</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Adresse</th>
+            <th>Cuisine</th>
+            <th>Note</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var restaurant in Model)
+        {
+            <tr>
+                <td>@restaurant.Nom</td>
+                <td>@restaurant.Adresse</td>
+                <td>@restaurant.Cuisine</td>
+                <td>@restaurant.Note</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@restaurant.Id">Détails</a> |
+                    <a asp-action="Edit" asp-route-id="@restaurant.Id">Modifier</a> |
+                    <a asp-action="Delete" asp-route-id="@restaurant.Id">Supprimer</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
